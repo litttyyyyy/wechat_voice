@@ -1,21 +1,18 @@
 {
-  "name": "wxcloudrun-express",
+  "name": "wechat_voice",
   "version": "1.0.0",
-  "description": "微信云托管 express 框架模版",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "morgan": "^1.10.0",
-    "mysql2": "^2.3.2",
-    "sequelize": "^6.8.0"
-  },
-  "engines": {
-    "node": ">=12.0.0"
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "sha1": "^1.1.1"
   }
 }
